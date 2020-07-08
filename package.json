@@ -1,6 +1,8 @@
 {
   "name": "svgicons",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.17"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-consolidate": "^0.2.0",
