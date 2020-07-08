@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "collab_icons";
+  src: font-url('collab_icons.eot');
+  src: font-url('collab_icons.eot?#iefix') format('eot'),
+  font-url('collab_icons.woff2') format('woff2'),
+  font-url('collab_icons.woff') format('woff'),
+  font-url('collab_icons.ttf') format('truetype'),
+  font-url('collab_icons.svg#collab_icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.colla {
+                  display: inline-block;
+                  vertical-align: middle;
+                }
+
+.colla:before {
+                  display: inline-block;
+                  font-family: "collab_icons";
+                  font-style: normal;
+                  font-weight: normal;
+                  line-height: 1;
+                  -webkit-font-smoothing: antialiased;
+                  -moz-osx-font-smoothing: grayscale;
+                }
+
+.colla-checked:before { content: "\EA01" }
+.colla-question-circle:before { content: "\EA02" }
+.colla-thumbs-up:before { content: "\EA03" }
